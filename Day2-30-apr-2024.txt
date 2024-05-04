@@ -1,0 +1,90 @@
+Day 2
+
+Agenda:
+
+Recap - done
+Cloud Computing 
+
+Deployment model
+1. public
+2. private
+3. hybrid
+Service model
+1. IAAS - Infrastructure as a service
+2. PAAS - Platform as a service
+3. SAAS - Software as a service
+
+git - VCS - Version Control System 
+source code - different versions
+GitHub - Crete an account
+Visual Studio Code - IDE - Integrated Development Environment
+
+create a repository in the GitHub
+
+git --version
+
+git init
+git add <file>
+git add .
+git commit -m "first version"
+git branch -M main
+git add remote origin <git repo url>
+git push -u origin main
+
+for every modification in the file
+or adding new file following commands
+to be executed
+git status
+git add .
+git commit -m "added contactus "
+git push
+
+1. Deploying static website on GitHub
+step - 1
+login to GitHub.com
+step - 2
+click on repositories
+select the repository which you
+have created yesterday
+step - 3
+click on settings - pages
+
+https://raghuprasadks.github.io/sindhivapwebsite/
+
+
+Assignment:
+1. create website for bca department
+and deploy it on GitHub
+2. Website should have following pages
+index.html
+course.html
+faculties.html
+images.html
+video.html
+contact.html
+3. You have to link every page from the index.html
+using navigation bar
+
+Sample website
+
+kaushalya tech
+click on git
+repositories
+
+sindhivapwebsite
+clone the repository
+
+create gitref folder inside your cloud folder
+cd to cloud
+git clone https://github.com/raghuprasadks/sindhivapwebsite.git
+
+
+
+
+
+ 
+
+2. Continuous integration and continuous delivery
+3. Download and install nginx webserver
+4. Download docker/Docker hub
+

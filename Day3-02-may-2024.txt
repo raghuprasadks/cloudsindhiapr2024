@@ -1,0 +1,26 @@
+Agenda:
+1. Recap -
+creation of a website for 
+bca department
+hosting it on github
+2. Web servers
+Download and configure nginx - done
+Download and configure xampp
+web server and database server
+
+3. nginx configuration
+
+search
+download nginx for windows
+
+https://nginx.org/en/download.html
+click on stable version
+	nginx/Windows-1.26.0
+
+
+D:/kaushalya/consultancy/sindhi/2024/vap/cloud/web
+
+D:/kaushalya/consultancy/sindhi/2024/vap/cloud/web;
+
+
+http://localhost:8081/web/

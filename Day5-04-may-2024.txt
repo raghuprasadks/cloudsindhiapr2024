@@ -1,0 +1,43 @@
+Agenda:
+1. Docker
+2. Docker hub
+3. Deploying python flask application
+on docker and pushing it to docker hub
+
+docker Container
+
+image
+container
+
+type
+hub.docker.com
+
+docker pull python
+
+docker images
+docker container list
+create a python flask application
+
+flask - micro web frame
+Django
+java
+servlets/jsp
+Steps :
+1. create pythonflask folder
+open folder in visual studio code
+
+create Calculator.py
+file inside pythonflask folder
+create following methods
+add (num1,num2)
+subtract(num1,num2)
+multiply(num1,num2)
+divide(num1,num2)
+
+flask
+
+
+
+
+
+

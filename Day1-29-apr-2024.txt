@@ -1,0 +1,100 @@
+Cloud Computing
+
+your college - website
+develop website using html/css
+
+deploy 
+
+webserver - apache,tomcat,nginx,jboss,iis
+browser
+lan
+10.1.99.123 
+
+google.com
+sindhicollege.edu.in
+DNS - Domain Name Service Provider
+
+ip - public ip
+
+Deployment
+Public,private,hybrid
+
+Service 
+IAAS,PAAS,SAAS
+IAAS - Infrastructure As A Service
+PAAS - Platform As A Service
+SAAS - Software As A Service
+
+download git
+https://git-scm.com/downloads
+GitHub.com - sign up
+git - distributed version control system
+visual studio code - community edition
+
+GitHub.com
+
+
+
+go to cloud and web folder
+from the command prompt
+
+
+c:\cloud\web folder
+
+git init
+git add index.html
+git add .
+git commit -m "my first commit"
+
+
+
+git - local/internal repository
+remote repository
+
+git init
+
+git add .
+git commit -m "added contactus"
+git branch -M main
+git remote add origin <gitrepo>
+git push -u origin main
+
+after change in a file or 
+adding new file
+execute following commands
+
+git add .
+git commit -m "added contact us"
+git push
+
+
+
+
+
+
+
+create cloud folder in d drive
+create web folder inside cloud folder
+d:/cloud/web
+
+search for visual studio code and open
+
+create index.html
+type first html program
+
+live server
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

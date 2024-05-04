@@ -1,0 +1,36 @@
+Agenda:
+1. Recap
+nginx
+xampp
+download xampp
+2. Cloud Platforms
+AWS - Amazon
+https://aws.amazon.com/
+AWS Service
+EC2 - Elastic Cloud Compute
+Create virtual server
+S3 - Simple Storage Service
+RDS - Remote Data Service
+SNS - Simple Notification Service
+EC2 - virtual server
+
+download docker desktop
+https://hub.docker.com/
+
+container
+virtualization
+on physical server
+ec2 - to create virtual server
+docker
+container - box
+
+
+
+
+
+
+
+Azure - microsoft
+Google Cloud - Google
+Heroku - sales force
+3. Docker and Docker hub
