@@ -46,6 +46,14 @@ repositories
 
 cloudsindhiapr2024
 
+create requirement.txt file
+flask
+
+create Dockerfile
+add the content which is in the git
+
+docker build -t pythonflask .
+
 
 
 
