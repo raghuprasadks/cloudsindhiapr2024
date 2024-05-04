@@ -35,6 +35,16 @@ multiply(num1,num2)
 divide(num1,num2)
 
 flask
+pip install flask
+
+
+kaushalya tech
+
+git
+
+repositories
+
+cloudsindhiapr2024
 
 
 
