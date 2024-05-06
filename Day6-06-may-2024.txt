@@ -1,0 +1,68 @@
+Agenda:
+
+Recap:
+1. Docker - Container
+2. Docker hub
+3. Creation of python flask application
+4. Create docker image
+5. Run docker image
+
+Plan for today
+6. Push image to docker hub
+7. Install python in ec2 instance
+8. Connect using putty
+9. Deploy  flask application on EC2
+
+
+Practicals
+
+delete previously created flask application
+in docker
+delete image
+
+docker desktop - containers
+
+1. create pythonweb folder - done
+2. Open python web using visual studio code -done
+3. create virtual environment
+in the terminal or command prompt
+of pythonweb
+syntax
+virtualenv <name of virtual envionment>
+virtualenv venv
+
+pip install virtualenv
+
+activate virtual environment
+
+.\venv\Scripts\activate
+
+inside visual studio code
+pip install flask
+
+app.py
+
+run the program
+python app.py
+
+
+
+
+C:\Users\Raghu Prasad\AppData\Local\Programs\Python\Python311
+
+C:\Users\Raghu Prasad\AppData\Local\Programs\Python\Python311\Scripts
+
+4. activate virtual environment
+5. install flask
+6. create app.py
+7. run app.py
+
+
+docker build -t pythonflask:latest .
+
+docker tag pythonflask:latest raghuprasadkonandur/pythonflask:latest
+
+docker push raghuprasadkonandur/pythonflask:latest
+
+
+
