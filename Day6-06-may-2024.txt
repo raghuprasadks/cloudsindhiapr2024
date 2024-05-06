@@ -64,5 +64,30 @@ docker tag pythonflask:latest raghuprasadkonandur/pythonflask:latest
 
 docker push raghuprasadkonandur/pythonflask:latest
 
+cmd
+
+docker pull raghuprasadkonandur/pythonflask:latest
+
+create pythonflask ec2 instance with ubuntu
+
+login aws
+search EC2
+click
+launch instance
+
+https://ubuntu.com/tutorials/install-and-configure-nginx#1-overview
+
+
+sudo apt update
+sudo apt install nginx
+
+
+
+
+
+
+
+
+
 
 
