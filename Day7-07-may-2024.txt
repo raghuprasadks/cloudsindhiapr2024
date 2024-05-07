@@ -1,0 +1,6 @@
+Agenda
+
+1.Recap
+2. Deploy flask application
+on AWS
+3. Flask application with templates

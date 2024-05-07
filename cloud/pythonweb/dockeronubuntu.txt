@@ -1,0 +1,67 @@
+# Update your existing list of packages
+sudo apt update
+
+# Install a few prerequisite packages which let apt use packages over HTTPS
+sudo apt install apt-transport-https ca-certificates curl software-properties-common
+
+# Add the GPG key for the official Docker repository to your system
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+
+# Add the Docker repository to APT sources
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+
+# Update the package database with the Docker packages from the newly added repo
+sudo apt update
+
+# Make sure you are about to install from the Docker repo instead of the default Ubuntu repo
+sudo apt-cache policy docker-ce
+
+# Finally, install Docker
+sudo apt install docker-ce
+
+# check the version of the docker 
+docker --version
+
+# start docker 
+sudo systemctl start docker
+
+#stop docker
+sudo systemctl stop docker
+
+# check the status of the docker
+sudo systemctl status docker
+
+#pull docker image
+sudo docker pull raghuprasadkonandur/pythonflask:latest
+
+#to check the images in the docker
+sudo docker images
+
+# to run docker image
+sudo docker run -p 80:5000 raghuprasadkonandur/pythonflask:latest
+
+# to run docker image in detached mode
+sudo docker run -d -p 80:5000 raghuprasadkonandur/pythonflask:latest
+
+# to check running docker containers
+
+sudo docker container list
+
+# stop docker container
+syntax - sudo docker stop containerID_or_containerName
+
+sudo docker stop 
+
+sudo docker stop 5fd76279d3c2
+
+# crud
+
+https://malarkandasamy.wordpress.com/2020/02/01/containerize-a-python-flask-web-application-with-mysql-using-docker-compose/
+
+https://github.com/makandas/composetutorial
+
+docker-compose up
+http://localhost:5000/show_all
+
+https://dev.to/francescoxx/build-a-crud-rest-api-in-python-using-flask-sqlalchemy-postgres-docker-28lo
+
