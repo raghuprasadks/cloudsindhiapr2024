@@ -1,6 +1,50 @@
 Agenda
 
 1.Recap
+python flask application
+docker image - Dockerfile
+pushed the docker image
+docker hub
+AWS - Created EC2 instance
+Installed nginx on EC2
 2. Deploy flask application
 on AWS
 3. Flask application with templates
+
+
+Practicals for today
+
+1. create new EC2 instance
+give name pythonflask
+2. Install docker on EC2 instance
+3. pulling docker image from the 
+docker hub
+4. Running the image
+
+pythonwebapp
+html and python together
+
+Steps :
+1. create pythonwebapp folder
+2. cd pythonwebapp
+3. code .
+4. open terminal
+5. virtualenv venv
+6. activate virtual env
+.\venv\Scripts\activate
+7. install flask
+pip install flask
+8. create templates folder inside pythonwebapp
+
+Sign up
+
+<form>
+name: text box
+email : text box
+mobile : text box
+password : password
+button - Sign Up
+</form>
+
+jinga templating engine
+
