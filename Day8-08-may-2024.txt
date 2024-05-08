@@ -1,0 +1,47 @@
+Agenda:
+1. Database - RDBMS, No SQL
+SQL - tables - primary key and foreign key
+oracle,ms-sql,my-sql,db2,postgres
+cloud databases
+No SQL - mongodb,couch db
+document - key : value
+
+2. Basic sql commands
+w3schools sql
+
+https://www.w3schools.com/sql/
+
+3. Installing MySQL on docker
+4. Docker compose for python flask with MySQL
+
+Recap:
+Docker Docker hub
+Python flask application on AWS - docker
+
+
+SQL Queries
+1. Display total number of customers
+of Germany
+
+SELECT count(*) as totalcustomers FROM Customers where country = 'Germany'
+
+2. Display total number of customers
+who live in Berlin
+
+SELECT count(*) as totalcustomers FROM Customers where country = 'Germany' and city  ='Berlin'
+
+3. Display unique countries in
+the customers tables
+
+SELECT distinct country FROM Customers
+
+4. Insert a record (your name) into the Customers table
+
+insert into customers values(100,'raghu','raghu','Bengaluru',560077,'India')
+
+5. Update customer with id =1 name as ravi
+update customers set customername = 'ravi' where customerid =1
+6. delete customer with id =1
+delete from customers where customerid =1
+
+
