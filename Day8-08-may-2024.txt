@@ -45,3 +45,20 @@ update customers set customername = 'ravi' where customerid =1
 delete from customers where customerid =1
 
 
+docker run --name my-sql-server -p 3307:3306 -e MYSQL_ROOT_PASSWORD=root -d MySQL
+
+
+create table customers
+(
+	CustomerID INT PRIMARY KEY,
+	CustomerName VARCHAR(255),
+	ContactName VARCHAR(255),
+	Address  VARCHAR(255),
+	City VARCHAR(255),
+	PostalCode INT,
+	Country VARCHAR(255)
+);
+
+insert into customers values (1,'ravi','ramesh','sindhi college','Bengaluru',560044,'India');
+
+update and delete commands
