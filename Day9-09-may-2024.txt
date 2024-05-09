@@ -1,0 +1,33 @@
+Agenda:
+1. AWS - Database
+RDS
+2. AWS - S3
+Hosting static website on S3
+3. End to end project
+
+Practicals:
+1. login to aws
+Search RDS 
+(Relational Database Service)
+2. Create Database
+
+Download 
+MySQL workbench
+https://dev.mysql.com/downloads/workbench/
+
+Created database instance
+database client - MySQL workbench
+
+sindhivapdb.cdtqd6jgia7i.ap-south-1.rds.amazonaws.com
+
+common aws rds errors
+sreyoghilashi it
+
+docker-compose up
+
+http://localhost:5000/show_all
+
+Mini project
+product master
+
+
