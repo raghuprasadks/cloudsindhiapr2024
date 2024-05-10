@@ -5,7 +5,8 @@ https://docs.aws.amazon.com/AmazonS3/latest/userguide/HostingWebsiteOnS3Setup.ht
 3. Revision
 4. Feedback
 5. MCQ Test
-6. Programming test
+6. Programming test - product master
+complete the assignment
 
 Revision
 
