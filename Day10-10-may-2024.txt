@@ -1,0 +1,8 @@
+Agenda:
+1. Simple Storage Service - S3 ...
+2. Deployment of static web application on  S3
+https://docs.aws.amazon.com/AmazonS3/latest/userguide/HostingWebsiteOnS3Setup.html
+3. Revision
+4. Feedback
+5. MCQ Test
+6. Programming test
