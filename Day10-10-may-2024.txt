@@ -1,8 +1,64 @@
 Agenda:
-1. Simple Storage Service - S3 ...
+1. Simple Storage Service - S3 ... - done
 2. Deployment of static web application on  S3
-https://docs.aws.amazon.com/AmazonS3/latest/userguide/HostingWebsiteOnS3Setup.html
+https://docs.aws.amazon.com/AmazonS3/latest/userguide/HostingWebsiteOnS3Setup.html - done
 3. Revision
 4. Feedback
 5. MCQ Test
 6. Programming test
+
+Revision
+
+Cloud Computing
+
+Deployment model
+1. public 
+2. private
+3. hybrid - public + private
+
+Service model
+IAAS
+PAAS
+SAAS
+
+git  - version control
+
+GitHub.com
+
+1. create project - webapp
+2. keep all programs
+
+3. git init
+4. git add .
+5. git commit -m "message"
+6. git branch -m main
+7. git remote add <git url>
+8. git push
+
+every change
+git add .
+git commit
+git push
+
+git clone <git link>
+git pull
+
+docker and dockerhub
+Dockerfile
+docker build -t pythonflaskweb .
+
+container 
+ports
+docker-compose
+
+EC2 - EC2 instance
+run different commands
+how to install web server - ngnx
+how to install docker on EC2
+deploy application from docker-hub
+RDS - Database
+client - sql workbench
+S3 
+
+
+
